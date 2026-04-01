@@ -1,16 +1,135 @@
-# React + Vite
+# 🚀 Interactive Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean React application that demonstrates core React concepts like **components, props, and state management using useState**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Project Overview
 
-## React Compiler
+This project is part of a React internship daily assignment.
+It is a counter application where users can:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Increment the counter
+* Decrement the counter
+* Reset the counter
+* Control increment/decrement value using a step input
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* React (Vite)
+* JavaScript (ES6+)
+* CSS (No UI libraries used)
+
+---
+
+## 📂 Folder Structure
+
+```
+interactive-counter-app/
+│── src/
+│   │── components/
+│   │   │── Button.jsx
+│   │   │── CounterDisplay.jsx
+│   │   │── CounterControls.jsx
+│   │
+│   │── App.jsx
+│   │── App.css
+│   │── main.jsx
+```
+
+---
+
+## ⚙️ Features
+
+* ✅ Counter starts at 0
+* ✅ Increment & Decrement functionality
+* ✅ Reset button
+* ✅ Step input to control increment/decrement value
+* ✅ Dynamic color:
+
+  * Green → Positive
+  * Red → Negative
+  * Grey → Zero
+* ✅ Clean and centered UI
+* ✅ Reusable Button component
+
+---
+
+## 🧠 Concepts Used
+
+* React Functional Components
+* Props (data & function passing)
+* useState Hook
+* Component Reusability
+* Conditional Rendering & Styling
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone the repository:
+
+```
+git clone https://github.com/your-username/interactive-counter-app.git
+```
+
+2. Navigate into the project:
+
+```
+cd interactive-counter-app
+```
+
+3. Install dependencies:
+
+```
+npm install
+```
+
+4. Start the development server:
+
+```
+npm run dev
+```
+
+---
+
+## 📸 Sample Output
+
+```
+Counter: 0 (Grey)
+
+Step: 1
+
+[Increment] [Decrement] [Reset]
+```
+
+* Increment → increases value
+* Decrement → decreases value
+* Reset → sets value to 0
+
+---
+
+## ✅ Evaluation Criteria Met
+
+* ✔ State managed only in App.jsx
+* ✔ Reusable Button component (no duplicate code)
+* ✔ Props used correctly
+* ✔ Conditional styling applied
+* ✔ No UI libraries used
+* ✔ No console errors
+
+---
+
+## 📌 Author
+
+* Suresh
+
+---
+
+## ⭐ Notes
+
+This project is built using **pure React and CSS** without any UI libraries to demonstrate strong fundamentals.
+
+---
